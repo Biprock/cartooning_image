@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 #reading the image from the user 
-img =cv2.imread("./virat-kohli.jpg")
+img =cv2.imread("./pics/group.jpg")
 
 #dealing with the edges
 gray = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
